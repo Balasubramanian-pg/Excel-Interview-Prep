@@ -39,8 +39,6 @@ A WMA gives more weight to recent data points, making it more responsive to new 
 *   `SUMPRODUCT(...)`: Multiplies each value in the data window by its corresponding value in the `Weights` range and sums the results.
 *   `/ SUM(Weights)`: Normalizes the result by dividing by the sum of the weights.
 
----
-
 #### Exponential Moving Average (EMA)
 
 An EMA is a type of WMA that applies exponentially decreasing weights to older observations. It is highly responsive to recent changes and is widely used in finance and trend analysis.
@@ -55,8 +53,6 @@ An EMA is a type of WMA that applies exponentially decreasing weights to older o
 1.  Define the `Smoothing` constant. The standard formula is `2 / (Period + 1)`. You can put this value in a cell and reference it.
 2.  The **first** EMA value has no preceding value. It is often seeded with the first data point (as in the formula above) or an SMA of the first few points.
 3.  Enter the `IF` formula in the second row of your calculation column (`B2`) and drag it down. `B1` will automatically update to `B2`, `B3`, etc., creating the recursive link.
-
----
 
 #### Excel 365 Dynamic Array Method (SMA)
 
@@ -76,3 +72,4 @@ This modern approach uses a single, non-volatile formula that spills all the res
 
 > [!TIP]
 > This dynamic array method is the most efficient and robust solution in modern Excel. It avoids volatile functions, requires no dragging, and automatically adjusts if the source `Data` range changes size.
+
