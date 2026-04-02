@@ -10,7 +10,6 @@
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -18,7 +17,6 @@
 - **Why Use It?**: Analyze performance, assign priorities, or compare values in datasets.
 - **Compatibility**: Available in **Excel 2010 and later**.
 
----
 
 ## RANK.EQ: Equal Ranking
 
@@ -47,7 +45,6 @@
 
 - **Explanation**: Ranks values in descending order, with ties getting the same rank.
 
----
 
 ## RANK.AVG: Average Ranking for Ties
 
@@ -76,7 +73,6 @@
 
 - **Explanation**: Ranks values in descending order, with ties getting the average rank.
 
----
 
 ## Examples
 
@@ -98,7 +94,6 @@
 | 80         | `=RANK.AVG(A4, $A$1:$A$5, 0)`     | 4          |
 | 75         | `=RANK.AVG(A5, $A$1:$A$5, 0)`     | 5          |
 
----
 
 ## Use Cases
 
@@ -114,7 +109,6 @@
 - **Scenario**: Normalize data for statistical analysis.
 - **Example**: Use `RANK.AVG` to assign percentile-like ranks.
 
----
 
 ## Flashcard Q&A
 
@@ -130,7 +124,6 @@
 ### Q4: What rank does `RANK.AVG` assign to tied values?
 - **A**: The average of their ranks (e.g., 3.5 for two values tied for 3rd).
 
----
 
 ## Best Practices and Tips
 
@@ -143,7 +136,6 @@
 > - Always **anchor the range** (e.g., `$A$1:$A$100`) when dragging formulas.
 > - Test ranking formulas on a **small dataset** first.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -155,6 +147,5 @@
 > - **Performance**: Ranking large datasets can **slow down** calculations.
 > - **Compatibility**: Ensure compatibility with older Excel versions if needed.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for ranking values in Excel using `RANK.EQ` and `RANK.AVG`, including syntax, examples, use cases, and best practices.
