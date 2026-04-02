@@ -10,7 +10,6 @@ Array logic, traditionally performed with the `SUMPRODUCT` function, allows you 
 *   **`AND` Logic (Multiplication `*`)**: When you multiply arrays of `TRUE`/`FALSE` values, the result is `1` only if **all** conditions in that row are `TRUE` (`1 * 1 * 1 = 1`). If any condition is `FALSE`, the result becomes `0` (`1 * 0 * 1 = 0`).
 *   **`OR` Logic (Addition `+`)**: When you add arrays of `TRUE`/`FALSE` values, the result is `1` or more if **any** condition in that row is `TRUE` (`1 + 0 = 1`). The result is `0` only if all conditions are `FALSE` (`0 + 0 = 0`).
 
----
 
 #### Counting Rows with Multiple `AND` Conditions
 
@@ -33,7 +32,6 @@ This is the classic use case for `SUMPRODUCT`, where you count rows that meet se
 > **Modern Equivalent:**
 > `=COUNTIFS(Product_Column, "X", Status_Column, "Active", Date_Column, ">="&StartDate, ...)`
 
----
 
 #### Summing with Complex `OR` Logic
 
