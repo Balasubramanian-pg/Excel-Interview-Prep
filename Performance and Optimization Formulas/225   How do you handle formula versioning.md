@@ -15,7 +15,6 @@ Modern_Function_Excel365,
 Legacy_Array_Formula_Fallback
 )
 
----
 
 This comprehensive collection covers:
 
