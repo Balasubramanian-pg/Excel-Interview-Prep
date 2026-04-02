@@ -11,7 +11,6 @@ At its core, a **correlation coefficient** is a single number that summarizes th
 
 The most common method is the **Pearson correlation coefficient**, which is what the `CORREL` and `PEARSON` functions in Excel/Google Sheets calculate.
 
----
 
 ### How to Calculate It (The Concept)
 
@@ -30,7 +29,6 @@ This looks complex, but let's understand what it's doing step-by-step:
 
 **In practice, you will almost always use a built-in function like `CORREL` to do this calculation for you.**
 
----
 
 ### Functions in Excel/Google Sheets
 
@@ -47,7 +45,6 @@ You provided the correct functions. They are **identical** and can be used inter
 If your Sales data is in cells A2:A100 and your Advertising Spend data is in B2:B100, the formula would be:
 `=CORREL(A2:A100, B2:B100)`
 
----
 
 ### Interpretation (This is the Key Part)
 
@@ -69,7 +66,6 @@ Your interpretation summary is perfect. Let's expand on it with examples.
 
 
 
----
 
 ### Crucial Caveats and Warnings (What Correlation is NOT)
 
@@ -98,4 +94,3 @@ To calculate and interpret a correlation coefficient:
     *   **NO CAUSATION:** It's a measure of association, not proof of cause and effect.
     *   **LINEAR ONLY:** It can miss strong non-linear patterns.
     *   **CHECK FOR OUTLIERS:** Always visualize your data with a scatter plot first.
-
