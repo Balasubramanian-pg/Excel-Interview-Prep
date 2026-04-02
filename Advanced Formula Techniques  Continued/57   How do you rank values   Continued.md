@@ -10,7 +10,6 @@
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -21,7 +20,6 @@
   - `PERCENTRANK.INC`: Ranks values as percentiles.
   - Custom formula for unique ranks with duplicates.
 
----
 
 ## RANK.AVG: Ranking with Averaged Ties
 
@@ -49,7 +47,6 @@
 > [!NOTE]
 > `RANK.AVG` is useful for **fair ranking** when ties should share the same average rank.
 
----
 
 ## PERCENTRANK.INC: Ranking as Percentile
 
@@ -77,7 +74,6 @@
 > [!TIP]
 > Use `PERCENTRANK.INC` for **normalizing data** or comparing values across different scales.
 
----
 
 ## Handling Duplicates: Unique Ranks
 
@@ -107,7 +103,6 @@
 > [!IMPORTANT]
 > This method ensures **no ties** in ranks, even with duplicate values.
 
----
 
 ## Step-by-Step Examples
 
@@ -132,7 +127,6 @@
 4. **Drag down**: B2: `=RANK.EQ(A2, $A$1:$A$5) + COUNTIF($A$1:A2, A2) - 1`, etc.
 5. **Result**: `1`, `2`, `3`, `4`, `5`
 
----
 
 ## Flashcard Q&A
 
@@ -148,7 +142,6 @@
 ### Q4: What is the default order for `RANK.AVG`?
 - **A**: **Descending** (highest value = rank 1).
 
----
 
 ## Best Practices and Tips
 
@@ -161,7 +154,6 @@
 > - Always **anchor ranges** with `$` (e.g., `$A$1:$A$100`).
 > - Test ranking formulas on a **small dataset** first.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -172,6 +164,5 @@
 > [!CAUTION]
 > - **Performance**: Using ranking formulas on large datasets can **slow down** calculations.
 
----
 
 This document provides a **thorough, practical, and self-study guide** for advanced ranking in Excel, including handling ties, percentiles, and unique ranks.
