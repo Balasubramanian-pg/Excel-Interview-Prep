@@ -10,7 +10,6 @@
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -21,7 +20,6 @@
   - Grouped data (`SUMIF`).
   - Dynamic arrays (`SCAN` in Excel 365).
 
----
 
 ## Method 1: Simple Running Total
 
@@ -46,7 +44,6 @@
 > [!NOTE]
 > This method is **simple and widely compatible** with all Excel versions.
 
----
 
 ## Method 2: Running Total with SUMIF for Grouped Data
 
@@ -73,7 +70,6 @@
 > [!TIP]
 > Useful for **grouped or categorical data**.
 
----
 
 ## Method 3: Running Total with SCAN (Excel 365)
 
@@ -99,7 +95,6 @@
 > [!IMPORTANT]
 > Requires **Excel 365** or later. Spills results dynamically.
 
----
 
 ## Step-by-Step Examples
 
@@ -123,7 +118,6 @@
 3. **Formula in B1**: `=SCAN(0, A1:A3, LAMBDA(acc, val, acc + val))`
 4. **Result**: Spills `10`, `30`, `60` in B1:B3.
 
----
 
 ## Flashcard Q&A
 
@@ -139,7 +133,6 @@
 ### Q4: What is the advantage of using `SCAN` for running totals?
 - **A**: It dynamically spills results and is **easier to maintain** in Excel 365.
 
----
 
 ## Best Practices and Tips
 
@@ -152,7 +145,6 @@
 > - Test formulas on a **small dataset** first.
 > - Use **absolute references** (`$A$1`) to anchor the starting cell.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -163,6 +155,5 @@
 > [!CAUTION]
 > - **Performance**: Using entire columns (e.g., `A:A`) in large workbooks can **slow down** calculations.
 
----
 
 This document provides a **thorough, practical, and self-study guide** for creating running totals in Excel, covering all methods, examples, and best practices.
