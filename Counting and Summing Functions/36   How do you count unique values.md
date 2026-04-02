@@ -145,4 +145,3 @@ Alternative to COUNTA(UNIQUE()) when you only need the count
 =COUNT(UNIQUE(range))
 ```
 Counts unique numeric values specifically
-
