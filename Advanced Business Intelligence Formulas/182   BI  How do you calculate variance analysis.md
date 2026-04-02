@@ -4,7 +4,6 @@ Variance analysis is a core component of Business Intelligence (BI) that involve
 
 Assume your data is structured with `Actual` values in column B, `Budget` values in column C, and a `Category` (e.g., "Revenue" or "Expenses") in column A.
 
----
 
 #### 1. Absolute Variance
 
@@ -24,7 +23,6 @@ This formula subtracts the budget from the actual amount.
 > [!NOTE]
 > The absolute variance is useful for understanding the magnitude of the difference in monetary terms, but it lacks context. A $10,000 variance is significant for a small business but might be negligible for a large corporation.
 
----
 
 #### 2. Percentage Variance
 
@@ -42,7 +40,6 @@ It calculates the absolute variance and then divides it by the budget amount. Th
 > This formula will return a `#DIV/0!` error if the budget amount is zero. To handle this, wrap your formula in the `IFERROR` function:
 > `=IFERROR((B2 - C2) / C2, "N/A")`
 
----
 
 #### 3. Favorable / Unfavorable Indicator
 
@@ -62,7 +59,6 @@ This nested `IF` statement first checks the category in cell `A2`.
 > [!TIP]
 > Use this formula as a basis for **Conditional Formatting**. You can create rules to automatically color-code cells green for "Favorable" and red for "Unfavorable," instantly making your reports easier to read.
 
----
 
 #### 4. Variance Explanation / Categorization
 
