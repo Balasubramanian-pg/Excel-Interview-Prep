@@ -2,7 +2,6 @@
 
 Here’s a **comprehensive, detailed, and structured markdown document** for extracting text before/after a character in Excel, including syntax, examples, use cases, best practices, and flashcards.
 
----
 
 ```markdown
 # Extracting Text Before/After a Character in Excel
@@ -182,4 +181,3 @@ Extracting specific parts of a text string is a common task in Excel. This guide
 > [!IMPORTANT]
 > Mastering these techniques will significantly improve your data manipulation skills in Excel.
 ```
-
