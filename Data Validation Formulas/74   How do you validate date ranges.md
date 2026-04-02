@@ -186,4 +186,3 @@ To allow empty cells while validating non-empty entries:
 3. **Document date assumptions** - fiscal year start, holiday calendar
 4. **Use consistent date formats** across your workbook
 5. **Combine with Conditional Formatting** for visual feedback on existing data
-
