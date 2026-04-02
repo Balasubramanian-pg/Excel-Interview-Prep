@@ -11,7 +11,6 @@
 8. [Best Practices and Tips](#best-practices-and-tips)
 9. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -23,7 +22,6 @@
   - `FILTER` (Excel 365)
 - **Compatibility**: Methods vary by Excel version.
 
----
 
 ## Method 1: Using LOOKUP
 
@@ -51,7 +49,6 @@
 > [!NOTE]
 > Works for **text and numbers**. Returns the last non-empty value.
 
----
 
 ## Method 2: Using INDEX and COUNTA
 
@@ -79,7 +76,6 @@
 > [!TIP]
 > Simple and efficient for columns with **no empty cells in between**.
 
----
 
 ## Method 3: Using FILTER (Excel 365)
 
@@ -111,7 +107,6 @@
 > [!IMPORTANT]
 > Requires **Excel 365** or later. Spills results dynamically.
 
----
 
 ## Method 4: Using LOOKUP for Numbers Only
 
@@ -139,7 +134,6 @@
 > [!WARNING]
 > Fails if the last value is **text** or **empty**.
 
----
 
 ## Step-by-Step Examples
 
@@ -167,7 +161,6 @@
 3. **Formula**: `=LOOKUP(9.99E+307, A:A)`
 4. **Result**: `40`.
 
----
 
 ## Flashcard Q&A
 
@@ -183,7 +176,6 @@
 ### Q4: When should you use `LOOKUP(9.99E+307, A:A)`?
 - **A**: Only for columns containing **numbers**.
 
----
 
 ## Best Practices and Tips
 
@@ -196,7 +188,6 @@
 > - Test formulas on a **small dataset** first.
 > - Avoid using entire columns (e.g., `A:A`) in large workbooks for performance.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -207,7 +198,5 @@
 > [!CAUTION]
 > - **Performance**: Using entire columns in large datasets can slow down your workbook.
 
----
 
 This document provides a **thorough, practical, and self-study guide** for finding the last value in a column in Excel, covering all methods, examples, and best practices.
-
