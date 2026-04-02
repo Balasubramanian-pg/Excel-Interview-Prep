@@ -13,7 +13,6 @@ Recursive calculations, where a function calls itself to solve a problem, are po
 4.  In the **Refers to** field, enter your `LAMBDA` formula.
 5.  Click **OK**.
 
----
 
 #### Example 1: Fibonacci Sequence
 
@@ -37,7 +36,6 @@ To find the 10th Fibonacci number, you would enter:
 =Fib(10)
 ```
 
----
 
 #### Example 2: Factorial
 
