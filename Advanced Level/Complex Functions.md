@@ -10,7 +10,6 @@
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## XLOOKUP vs VLOOKUP
 
@@ -52,7 +51,6 @@
 > [!TIP]
 > Use **XLOOKUP** for modern, flexible lookups. It replaces `VLOOKUP` in most scenarios.
 
----
 
 ## Array Formulas
 
@@ -79,7 +77,6 @@
 > [!NOTE]
 > In **Excel 365**, array formulas **spill** results automatically.
 
----
 
 ## OFFSET and INDIRECT
 
@@ -110,7 +107,6 @@
 > [!WARNING]
 > Both `OFFSET` and `INDIRECT` are **volatile**—they recalculate frequently and can slow down large workbooks.
 
----
 
 ## SUMIFS, COUNTIFS, AVERAGEIFS
 
@@ -153,7 +149,6 @@
 > [!TIP]
 > Use **SUMIFS**, **COUNTIFS**, and **AVERAGEIFS** for **multi-criteria analysis**.
 
----
 
 ## TEXT Functions
 
@@ -212,7 +207,6 @@
 > [!IMPORTANT]
 > Use **TEXT functions** to manipulate and extract data from text strings.
 
----
 
 ## Flashcard Q&A
 
@@ -231,7 +225,6 @@
 ### Q5: What is the difference between CONCATENATE and &?
 - **A**: Both join text, but `&` is shorter and more flexible.
 
----
 
 ## Best Practices and Tips
 
@@ -246,7 +239,6 @@
 > - Test complex formulas on a **small dataset** first.
 > - Use **absolute references** (e.g., `$A$1`) in formulas that will be copied.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -259,6 +251,5 @@
 > - **Performance**: Complex array formulas and volatile functions can **slow down** large workbooks.
 > - **Compatibility**: Some functions (e.g., `XLOOKUP`) are **only available in Excel 365/2021+**.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for **Complex Functions in Excel**, including `XLOOKUP`, array formulas, `OFFSET`, `INDIRECT`, multi-criteria functions, and text functions.
