@@ -873,4 +873,3 @@ End Sub
 * Learn and master the simple positional functions first
 * Use Power Query for any dataset over 10,000 rows
 * Keep one VBA extraction function in your Personal Macro Workbook as a backup
-
