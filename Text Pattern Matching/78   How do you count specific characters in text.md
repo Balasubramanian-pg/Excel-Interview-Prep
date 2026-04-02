@@ -1,7 +1,6 @@
 # 78. **How do you count specific characters in text?**
 Here’s a **comprehensive, detailed, and structured markdown guide** for counting specific characters, spaces, and words in Excel, including syntax, examples, use cases, best practices, and flashcards.
 
----
 
 # Counting Specific Characters, Spaces, and Words in Excel
 
@@ -23,7 +22,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 > [!NOTE]
 > These techniques are widely used in data validation, text mining, and report generation.
 
----
 
 ## Core Functions
 
@@ -33,7 +31,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 | `SUBSTITUTE`  | Replaces existing text with new text in a string.                         |
 | `TRIM`        | Removes extra spaces from text, leaving only single spaces between words. |
 
----
 
 ## Counting Specific Characters
 
@@ -58,7 +55,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 ```
 **Output:** `3`
 
----
 
 ## Counting Spaces
 
@@ -81,7 +77,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 ```
 **Output:** `1`
 
----
 
 ## Counting Words
 
@@ -105,7 +100,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 ```
 **Output:** `2`
 
----
 
 ## Practical Examples
 
@@ -127,7 +121,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 ```
 **Output:** `2`
 
----
 
 ## Common Errors and Troubleshooting
 
@@ -140,7 +133,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 > [!WARNING]
 > Always validate your input data for unexpected characters or formats.
 
----
 
 ## Best Practices
 
@@ -157,7 +149,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 > [!TIP]
 > For counting multiple characters, nest `SUBSTITUTE` functions or use helper columns.
 
----
 
 ## Flashcards: Q&A
 
@@ -176,7 +167,6 @@ Counting specific characters, spaces, or words in Excel is a powerful way to ana
 ### Q5: How do you count all vowels in a string?
 **A:** Use nested `SUBSTITUTE` functions for each vowel or a helper column.
 
----
 
 > [!IMPORTANT]
 > These techniques are foundational for text analysis in Excel and can be combined for advanced data processing.
