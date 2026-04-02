@@ -189,5 +189,3 @@ Returns: 9/15/2023 (6 months earlier)
 =YEAR(A1) + IF(MONTH(A1)>=7, 1, 0)
 ```
 (Assuming fiscal year starts July 1)
-
----
