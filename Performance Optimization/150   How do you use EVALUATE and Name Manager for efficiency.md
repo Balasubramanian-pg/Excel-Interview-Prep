@@ -12,7 +12,6 @@ Name: SalesRange, Refers to: =OFFSET(Sheet1!$A$1,0,0,COUNTA(Sheet1!$A:$A),1)
 **Use names in formulas:** =TaxRate * A1
 Clearer and easier to update centrally
 
----
 
 These cover virtually every formula scenario you'll encounter in Excel interviews and real-world applications! Would you like me to:
 
