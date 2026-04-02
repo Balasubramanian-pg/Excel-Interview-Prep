@@ -1,6 +1,5 @@
 Here’s a **comprehensive, structured markdown guide** for using **array constants** in Excel:
 
----
 
 # Array Constants in Excel
 
@@ -14,7 +13,6 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -22,7 +20,6 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 - **Why Use Them?**: Simplify formulas, avoid helper columns, and perform calculations on fixed datasets.
 - **Compatibility**: Available in **Excel 2007 and later** (some features require Excel 365).
 
----
 
 ## Syntax and Structure
 
@@ -38,7 +35,6 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 > [!NOTE]
 > In some regional settings, use **commas for rows** and **semicolons for columns**.
 
----
 
 ## Types of Array Constants
 
@@ -54,7 +50,6 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 - **Syntax**: `{row1_value1, row1_value2; row2_value1, row2_value2}`
 - **Example**: `{1, 2, 3; 4, 5, 6}`
 
----
 
 ## Examples
 
@@ -79,7 +74,6 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 
 - **Explanation**: Multiplies `B:B` by `1` if the month in `A:A` is January, February, or December, then sums the results.
 
----
 
 ## Use Cases
 
@@ -99,7 +93,6 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 - **Scenario**: Test formulas with sample data before applying to real data.
 - **Example**: `=AVERAGE({10, 20, 30, 40})`
 
----
 
 ## Flashcard Q&A
 
@@ -118,7 +111,6 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 ### Q5: How can you use array constants with `SUMPRODUCT`?
 - **A**: Apply conditions directly in the formula: `=SUMPRODUCT((MONTH(A:A)={1,2,12})*(B:B))`.
 
----
 
 ## Best Practices and Tips
 
@@ -131,7 +123,6 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 > - Array constants are **not dynamic**; update them manually if data changes.
 > - Test formulas with array constants on a **small scale** before applying to large datasets.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -144,6 +135,5 @@ Here’s a **comprehensive, structured markdown guide** for using **array consta
 > - **Hardcoding**: Hardcoded array constants can be **difficult to maintain** if data changes frequently.
 > - **Compatibility**: Some array functions (e.g., `FILTER`) require **Excel 365**.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for using array constants in Excel, including syntax, examples, use cases, and best practices.
