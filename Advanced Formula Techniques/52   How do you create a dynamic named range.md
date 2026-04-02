@@ -9,7 +9,6 @@
 6. [Best Practices and Tips](#best-practices-and-tips)
 7. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -19,7 +18,6 @@
   - Traditional method: **Excel 2000 and later**.
   - Excel 365 method: **Excel 365 and later**.
 
----
 
 ## Traditional Method: Using OFFSET
 
@@ -60,7 +58,6 @@
 > [!NOTE]
 > The `OFFSET` method is **volatile** and recalculates frequently, which can impact performance in large workbooks.
 
----
 
 ## Excel 365 Method: Using Spill Ranges
 
@@ -94,7 +91,6 @@
 > [!TIP]
 > The Excel 365 method is **non-volatile** and more efficient for large datasets.
 
----
 
 ## Step-by-Step Examples
 
@@ -118,7 +114,6 @@
    - Refers to: `=Sheet1!$B$1#`.
 4. **Result**: `Fruits` refers to `B1:B4` (spilled results).
 
----
 
 ## Flashcard Q&A
 
@@ -134,7 +129,6 @@
 ### Q4: How do you reference a spilled range in a named range?
 - **A**: Use the spill operator `#` (e.g., `=Sheet1!$B$1#`).
 
----
 
 ## Best Practices and Tips
 
@@ -147,7 +141,6 @@
 > - Avoid using `OFFSET` in **large workbooks** due to its volatility.
 > - Use **absolute references** (e.g., `$A$1`) in `OFFSET` formulas.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -159,6 +152,5 @@
 > - **Circular References**: Using `OFFSET` carelessly can create circular references.
 > - **Compatibility**: Spill ranges are **only available in Excel 365**.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for creating dynamic named ranges in Excel, covering both traditional and modern methods.
