@@ -10,7 +10,6 @@
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -18,7 +17,6 @@
 - **Why Use It?**: Simplifies conditional logic, enables dynamic calculations, and replaces nested `IF` statements.
 - **Compatibility**: Available in **Excel 2000 and later**.
 
----
 
 ## Syntax
 
@@ -29,7 +27,6 @@
 - **`index_num`**: The position of the value to return (must be between 1 and 254).
 - **`value1, value2, ...`**: Up to 254 values from which to choose.
 
----
 
 ## How It Works
 
@@ -40,7 +37,6 @@
   - If `index_num` is **2**, returns `value2`, and so on.
   - Returns `#VALUE!` if `index_num` is **less than 1** or **greater than the number of values**.
 
----
 
 ## Examples
 
@@ -68,7 +64,6 @@
   - `2`: `B1*C1` (50)
   - `3`: `B1/C1` (2)
 
----
 
 ## Use Cases
 
@@ -88,7 +83,6 @@
   ```
   Returns `200` (the value associated with "Blue").
 
----
 
 ## Flashcard Q&A
 
@@ -104,7 +98,6 @@
 ### Q4: How can `CHOOSE` be combined with `MATCH` for lookups?
 - **A**: Use `MATCH` to find the index of a value, then pass that index to `CHOOSE`.
 
----
 
 ## Best Practices and Tips
 
@@ -117,7 +110,6 @@
 > - Ensure `index_num` is **within the valid range** (1 to 254).
 > - Test `CHOOSE` formulas on a **small dataset** first.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -129,6 +121,5 @@
 > - **Performance**: Using `CHOOSE` with large lists can **slow down** calculations.
 > - **Compatibility**: Ensure compatibility with older Excel versions if needed.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for the `CHOOSE` function, including its syntax, use cases, examples, and best practices.
