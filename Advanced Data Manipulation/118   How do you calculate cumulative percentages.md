@@ -19,7 +19,6 @@ This method uses a mixed reference in the `SUM` function to create an expanding 
 > [!IMPORTANT]
 > After entering the formula, you must format the cell or column as a **Percentage** to display the result correctly (e.g., 0.25 will show as 25%).
 
----
 
 ### Application: Pareto Analysis (The 80/20 Rule)
 
@@ -39,7 +38,6 @@ The Pareto Principle states that for many events, roughly 80% of the effects com
 > [!TIP]
 > Use Conditional Formatting to instantly highlight the rows that fall within the top 80%. Apply a rule to your cumulative percentage column with the formula `=C2<=0.8` (where C is the cumulative % column) to visually separate your top contributors.
 
----
 
 ### Dynamic Cumulative Percentage (Excel 365)
 
