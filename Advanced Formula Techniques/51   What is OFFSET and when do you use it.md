@@ -10,7 +10,6 @@
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -18,7 +17,6 @@
 - **Why Use It?**: Enables dynamic range creation, flexible formula construction, and adaptive data analysis.
 - **Compatibility**: Available in **Excel 2000 and later**.
 
----
 
 ## Syntax
 
@@ -32,7 +30,6 @@
 - **`[height]`**: Optional. Height of the returned range (default = same as `reference`).
 - **`[width]`**: Optional. Width of the returned range (default = same as `reference`).
 
----
 
 ## How It Works
 
@@ -42,7 +39,6 @@
   - Creates a **dynamic range** that adjusts based on the offset.
   - Recalculates whenever Excel recalculates (volatile function).
 
----
 
 ## Examples
 
@@ -67,7 +63,6 @@
 
 - **Explanation**: `COUNTA(A:A)` counts non-empty cells in column A, and `OFFSET` creates a range from `A1` to the last non-empty cell.
 
----
 
 ## Use Cases
 
@@ -83,7 +78,6 @@
 - **Scenario**: Build formulas that adapt to changing data sizes.
 - **Example**: `=SUM(OFFSET(A1, 0, 0, COUNTA(A:A), 1))` sums all non-empty cells in column A.
 
----
 
 ## Flashcard Q&A
 
@@ -99,7 +93,6 @@
 ### Q4: How can you use `OFFSET` to calculate a moving average?
 - **A**: `=AVERAGE(OFFSET(A1, 0, 0, 5, 1))` calculates the average of the current cell and the next 4 cells.
 
----
 
 ## Best Practices and Tips
 
@@ -112,7 +105,6 @@
 > - Avoid overusing `OFFSET` in large workbooks due to its **volatile nature**.
 > - Test `OFFSET` formulas on a **small dataset** first.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -124,6 +116,5 @@
 > - **Performance**: Excessive use of `OFFSET` can make your workbook **sluggish**.
 > - **Error Handling**: If the offset range is invalid (e.g., outside the worksheet), `OFFSET` returns a `#REF!` error.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for the `OFFSET` function, including its syntax, use cases, examples, and best practices.
