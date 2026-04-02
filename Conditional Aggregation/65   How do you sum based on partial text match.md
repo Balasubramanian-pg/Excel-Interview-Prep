@@ -78,5 +78,3 @@ For modern Excel versions:
 =SUM(FILTER(B:B, ISNUMBER(SEARCH("West", A:A))))
 ```
 This uses FILTER to extract matching values before summing.
-
----
