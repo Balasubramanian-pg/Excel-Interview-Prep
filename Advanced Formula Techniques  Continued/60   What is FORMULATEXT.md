@@ -1,6 +1,5 @@
 Here’s a **comprehensive, detailed, and structured markdown document** for the `FORMULATEXT` function in Excel:
 
----
 
 # FORMULATEXT Function in Excel
 
@@ -14,7 +13,6 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Limitations and Warnings](#limitations-and-warnings)
 
----
 
 ## Introduction
 
@@ -22,7 +20,6 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
 - **Why Use It?**: Useful for documentation, auditing, debugging, and creating formula libraries.
 - **Compatibility**: Available in **Excel 2013 and later**.
 
----
 
 ## Syntax
 
@@ -32,7 +29,6 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
 
 - **`reference`**: The cell or range whose formula you want to display as text.
 
----
 
 ## How It Works
 
@@ -42,7 +38,6 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
   - If the cell contains a formula, `FORMULATEXT` returns the formula.
   - If the cell contains a value or is empty, it returns an error (`#N/A`).
 
----
 
 ## Use Cases
 
@@ -62,7 +57,6 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
 - **Scenario**: Generate reports that include the formulas used in calculations.
 - **Example**: Automatically document financial model formulas.
 
----
 
 ## Examples
 
@@ -84,7 +78,6 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
 > [!NOTE]
 > `FORMULATEXT` only works for cells with **formulas**. It returns `#N/A` for cells with values or empty cells.
 
----
 
 ## Flashcard Q&A
 
@@ -100,7 +93,6 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
 ### Q4: Can you use `FORMULATEXT` on a range?
 - **A**: No, it only works on **single cells**.
 
----
 
 ## Best Practices and Tips
 
@@ -115,7 +107,6 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
 > - Always test `FORMULATEXT` on a small dataset first.
 > - Use it to **create formula libraries** for training or reference.
 
----
 
 ## Limitations and Warnings
 
@@ -126,6 +117,5 @@ Here’s a **comprehensive, detailed, and structured markdown document** for the
 > [!CAUTION]
 > - **Performance**: Using `FORMULATEXT` on many cells may slow down large workbooks.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for the `FORMULATEXT` function, including its syntax, use cases, examples, and best practices.
