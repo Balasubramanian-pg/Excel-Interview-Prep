@@ -11,7 +11,6 @@
 8. [Best Practices and Tips](#best-practices-and-tips)
 9. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Macros
 
@@ -41,7 +40,6 @@
 > [!TIP]
 > Use **relative references** when recording macros for flexibility.
 
----
 
 ## Power Query
 
@@ -69,7 +67,6 @@
 > [!NOTE]
 > Power Query is **non-destructive**—it doesn’t modify the original data.
 
----
 
 ## Power Pivot
 
@@ -98,7 +95,6 @@
 > [!IMPORTANT]
 > Power Pivot is **essential for large datasets** and complex data models.
 
----
 
 ## Dynamic Named Ranges
 
@@ -130,7 +126,6 @@
 > [!TIP]
 > Dynamic named ranges are **ideal for charts and pivot tables** that need to update automatically.
 
----
 
 ## What-If Analysis
 
@@ -167,7 +162,6 @@
 > [!NOTE]
 > What-If Analysis is **great for financial modeling and forecasting**.
 
----
 
 ## Protecting Worksheets and Workbooks
 
@@ -198,7 +192,6 @@
 > [!WARNING]
 > **Forgotten passwords** cannot be recovered—store them securely.
 
----
 
 ## Flashcard Q&A
 
@@ -220,7 +213,6 @@
 ### Q6: How do you protect a worksheet?
 - **A**: Go to **Review** → **Protect Sheet**.
 
----
 
 ## Best Practices and Tips
 
@@ -237,7 +229,6 @@
 > - Use **structured references** in Power Query and Power Pivot.
 > - **Document** your macros and data models for future reference.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -253,6 +244,5 @@
 > - **Compatibility**: Some features (e.g., Power Pivot) are **not available in all Excel versions**.
 > - **Performance**: Complex macros and large datasets can **slow down** Excel.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for **Advanced Features in Excel**, including macros, Power Query, Power Pivot, dynamic named ranges, What-If Analysis, and worksheet/workbook protection.
