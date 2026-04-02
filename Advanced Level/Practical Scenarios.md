@@ -8,7 +8,6 @@
 5. [Best Practices and Tips](#best-practices-and-tips)
 6. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Cleaning Messy Data
 
@@ -48,7 +47,6 @@
 7. **Power Query**:
    - Use **Power Query** (Data → Get Data) for complex transformations like merging tables, filtering, and advanced cleaning.
 
----
 
 ## Analyzing Sales Data Across Regions/Time
 
@@ -80,7 +78,6 @@
 7. **Add Calculated Fields**:
    - Add metrics like **growth rate** or **profit margin** using **Calculated Fields** in the PivotTable.
 
----
 
 ## Handling Formula Errors
 
@@ -125,7 +122,6 @@
      ```
    - **Purpose**: Returns a specified value if the formula results in `#N/A`.
 
----
 
 ## Flashcard Q&A
 
@@ -147,7 +143,6 @@
 ### Q6: How do you group dates in a PivotTable?
 - **A**: Right-click a date → **Group** → Select **Months** or **Quarters**.
 
----
 
 ## Best Practices and Tips
 
@@ -162,7 +157,6 @@
 > - Test formulas and transformations on a **small dataset** first.
 > - Use **Tables** (Ctrl+T) for structured data that automatically updates ranges in formulas.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -175,6 +169,5 @@
 > - **Performance**: Complex transformations and large PivotTables can **slow down** your workbook.
 > - **Compatibility**: Some features (e.g., `UNIQUE`, `XLOOKUP`) are **only available in Excel 365/2021+**.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for **Practical Scenarios in Excel**, including data cleaning, sales analysis, and error handling. If you'd like practice examples or further elaboration on any specific area, let me know!
