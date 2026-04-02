@@ -21,7 +21,6 @@ An SMA calculates the average of a set of values over the last N periods. Each v
 > [!CAUTION]
 > The `OFFSET` function is **volatile**. This means it recalculates whenever *any* cell in the workbook changes, which can significantly slow down large spreadsheets. Use it with caution.
 
----
 
 #### Weighted Moving Average (WMA)
 
@@ -72,4 +71,3 @@ This modern approach uses a single, non-volatile formula that spills all the res
 
 > [!TIP]
 > This dynamic array method is the most efficient and robust solution in modern Excel. It avoids volatile functions, requires no dragging, and automatically adjusts if the source `Data` range changes size.
-
