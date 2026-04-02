@@ -92,5 +92,3 @@ For summing values above/below a certain threshold:
 =SUMIF(A1:A100, ">"&LARGE(A1:A100, N+1))
 ```
 This sums all values greater than the (N+1)th largest value.
-
----
