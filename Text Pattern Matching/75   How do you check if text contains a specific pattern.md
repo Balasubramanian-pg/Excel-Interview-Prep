@@ -56,4 +56,3 @@ Usage: `=RegExMatch(A1, "\d{3}-\d{2}-\d{4}")` (matches SSN pattern)
 ```
 
 The **COUNTIF with wildcards** approach is often the most readable for simple pattern matching, while **VBA RegEx** provides the most powerful pattern matching capabilities for complex requirements.
-
