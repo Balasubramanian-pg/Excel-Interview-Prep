@@ -42,7 +42,6 @@ Modern replacement for `CONCATENATE`. Handles ranges and individual arguments.
 ```
 **Output:** Joins all values in `A1:A5`.
 
----
 
 ### TEXTJOIN
 **Syntax:**
@@ -58,7 +57,6 @@ Joins text with a delimiter. Can ignore empty cells.
 ```
 **Output:** Joins values in `A1:A5` with `, ` as delimiter, ignoring empty cells.
 
----
 
 ### & Operator
 **Syntax:**
@@ -74,7 +72,6 @@ Simple way to concatenate text.
 ```
 **Output:** Joins values in `A1` and `B1` with a space.
 
----
 
 ## Extracting Text
 
@@ -92,7 +89,6 @@ Extracts a specified number of characters from the start of a text string.
 ```
 **Output:** First 3 characters of `A1`.
 
----
 
 ### RIGHT
 **Syntax:**
@@ -108,7 +104,6 @@ Extracts a specified number of characters from the end of a text string.
 ```
 **Output:** Last 4 characters of `A1`.
 
----
 
 ### MID
 **Syntax:**
@@ -124,7 +119,6 @@ Extracts a specified number of characters from a text string, starting at a spec
 ```
 **Output:** 10 characters from `A1`, starting at position 5.
 
----
 
 ## Finding Text
 
@@ -142,7 +136,6 @@ Case-sensitive. Returns the position of `find_text` in `within_text`.
 ```
 **Output:** Position of `@` in `A1`.
 
----
 
 ### SEARCH
 **Syntax:**
@@ -158,7 +151,6 @@ Not case-sensitive. Allows wildcards (`?`, `*`). Returns the position of `find_t
 ```
 **Output:** Position of "excel" (case-insensitive) in `A1`.
 
----
 
 ## Modifying Text
 
@@ -176,7 +168,6 @@ Converts text to uppercase.
 ```
 **Output:** `"HELLO"` if `A1` is `"Hello"`.
 
----
 
 ### LOWER
 **Syntax:**
@@ -192,7 +183,6 @@ Converts text to lowercase.
 ```
 **Output:** `"hello"` if `A1` is `"Hello"`.
 
----
 
 ### PROPER
 **Syntax:**
@@ -208,7 +198,6 @@ Capitalizes the first letter of each word.
 ```
 **Output:** `"Hello World"` if `A1` is `"hello world"`.
 
----
 
 ### TRIM
 **Syntax:**
@@ -224,7 +213,6 @@ Removes extra spaces, leaving only single spaces between words.
 ```
 **Output:** `"Hello World"` if `A1` is `"  Hello   World  "`.
 
----
 
 ### SUBSTITUTE
 **Syntax:**
@@ -240,7 +228,6 @@ Replaces `old_text` with `new_text` in a text string.
 ```
 **Output:** Replaces all `"old"` with `"new"` in `A1`.
 
----
 
 ### REPLACE
 **Syntax:**
@@ -256,7 +243,6 @@ Replaces part of a text string, starting at `start_num`, for `num_chars` charact
 ```
 **Output:** Replaces first 5 characters of `A1` with `"New"`.
 
----
 
 ## Other Text Functions
 
@@ -274,7 +260,6 @@ Returns the length of a text string.
 ```
 **Output:** Number of characters in `A1`.
 
----
 
 ### REPT
 **Syntax:**
@@ -290,7 +275,6 @@ Repeats text a specified number of times.
 ```
 **Output:** `"*****"`
 
----
 
 ### TEXT
 **Syntax:**
@@ -306,7 +290,6 @@ Formats a number and converts it to text.
 ```
 **Output:** `"$1,234.50"`
 
----
 
 ### VALUE
 **Syntax:**
@@ -322,7 +305,6 @@ Converts a text string that represents a number to a number.
 ```
 **Output:** `1234.5`
 
----
 
 ## Practical Examples
 
@@ -335,7 +317,6 @@ Converts a text string that represents a number to a number.
 ```
 **Output:** `"John Doe"`
 
----
 
 ### Example 2: Extract Domain from Email
 **Input:** `A1 = "user@example.com"`
@@ -346,7 +327,6 @@ Converts a text string that represents a number to a number.
 ```
 **Output:** `"example.com"`
 
----
 
 ### Example 3: Replace All Spaces with Hyphens
 **Input:** `A1 = "Hello World"`
@@ -357,7 +337,6 @@ Converts a text string that represents a number to a number.
 ```
 **Output:** `"Hello-World"`
 
----
 
 ## Best Practices
 
@@ -376,49 +355,40 @@ Converts a text string that represents a number to a number.
 > [!TIP]
 > For large datasets, consider using Power Query for advanced text transformations.
 
----
 
 ## Flashcards: Q&A
 
 ### Q1: What function joins text with a delimiter and can ignore empty cells?
 **A:** `TEXTJOIN`
 
----
 
 ### Q2: How do you extract the first 5 characters from a cell?
 **A:** `=LEFT(A1, 5)`
 
----
 
 ### Q3: What is the difference between `FIND` and `SEARCH`?
 **A:** `FIND` is case-sensitive; `SEARCH` is not and allows wildcards.
 
----
 
 ### Q4: How do you replace the third occurrence of a word in a text string?
 **A:** `=SUBSTITUTE(A1, "old", "new", 3)`
 
----
 
 ### Q5: What function converts a text string to a number?
 **A:** `VALUE`
 
----
 
 ### Q6: How do you repeat a character 10 times?
 **A:** `=REPT("*", 10)`
 
----
 
 ### Q7: What function capitalizes the first letter of each word?
 **A:** `PROPER`
 
----
 
 ### Q8: How do you count the number of characters in a cell?
 **A:** `=LEN(A1)`
 
----
 
 > [!IMPORTANT]
 > Mastering these functions will significantly enhance your ability to manipulate and analyze text data in Excel.
