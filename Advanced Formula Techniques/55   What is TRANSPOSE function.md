@@ -12,7 +12,6 @@
 7. [Best Practices and Tips](#best-practices-and-tips)
 8. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -22,7 +21,6 @@
   - **Excel 365**: Automatically spills results.
   - **Older Excel**: Requires array entry with **Ctrl+Shift+Enter**.
 
----
 
 ## Syntax
 
@@ -32,7 +30,6 @@
 
 - **`array`**: The range or array you want to transpose.
 
----
 
 ## How It Works
 
@@ -51,7 +48,6 @@
   2. Type `=TRANSPOSE(A1:A10)`.
   3. Press **Ctrl+Shift+Enter** to confirm as an array formula.
 
----
 
 ## Examples
 
@@ -76,7 +72,6 @@
 
 - **Explanation**: Converts a 2-row, 3-column range to a 3-row, 2-column range.
 
----
 
 ## Use Cases
 
@@ -96,7 +91,6 @@
 - **Scenario**: Adjust data orientation for import/export compatibility.
 - **Example**: Transpose CSV data to match a template.
 
----
 
 ## Flashcard Q&A
 
@@ -112,7 +106,6 @@
 ### Q4: Can `TRANSPOSE` handle 2D ranges?
 - **A**: Yes, it converts rows to columns and vice versa for 2D ranges.
 
----
 
 ## Best Practices and Tips
 
@@ -125,7 +118,6 @@
 > - In older Excel, **pre-select the output range** before entering the formula.
 > - Use **absolute references** (e.g., `$A$1:$A$10`) if transposing named ranges.
 
----
 
 ## Common Pitfalls and Warnings
 
@@ -137,6 +129,5 @@
 > - **Performance**: Transposing large ranges can **slow down** calculations.
 > - **Data Loss**: Transposing non-rectangular ranges may cause **errors or data loss**.
 
----
 
 This document provides a **detailed, practical, and self-study guide** for the `TRANSPOSE` function, including syntax, examples, use cases, and best practices for both Excel 365 and older versions.
