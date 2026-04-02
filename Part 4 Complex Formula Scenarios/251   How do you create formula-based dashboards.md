@@ -108,5 +108,3 @@ Sub CreateKPICard(ws As Worksheet, topLeftCell As String, title As String, _
 End Sub
 
 ```
-
----
