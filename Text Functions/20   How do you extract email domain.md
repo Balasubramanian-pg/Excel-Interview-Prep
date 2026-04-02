@@ -12,7 +12,6 @@
 > [!NOTE]
 > This formula finds the position of the "@" symbol and extracts all characters after it.
 
----
 
 **Method 2: Using RIGHT and FIND**
 **Syntax:** `=RIGHT(email, LEN(email)-FIND("@", email))`
@@ -24,7 +23,6 @@
 > [!TIP]
 > Both methods achieve the same result. The `RIGHT` function approach is slightly more intuitive for extracting everything after a specific character.
 
----
 
 **Practical Example**
 
@@ -39,7 +37,6 @@
 **Formula:** `=RIGHT(A1, LEN(A1)-FIND("@", A1))`
 **Output:** `"company.org"`
 
----
 
 **Handling Errors**
 
@@ -53,7 +50,6 @@
 > [!WARNING]
 > Always use error handling to manage cases where the email format is incorrect or the "@" symbol is missing.
 
----
 
 **Flashcards: Q&A**
 
@@ -74,4 +70,3 @@
 
 > [!IMPORTANT]
 > Always validate email formats before extracting domains to ensure accuracy. Use `IFERROR` to handle potential errors gracefully.
-
