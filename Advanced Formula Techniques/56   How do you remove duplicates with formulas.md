@@ -9,7 +9,6 @@
 6. [Best Practices and Tips](#best-practices-and-tips)
 7. [Common Pitfalls and Warnings](#common-pitfalls-and-warnings)
 
----
 
 ## Introduction
 
@@ -19,7 +18,6 @@
   - **Excel 365**: Uses the `UNIQUE` function.
   - **Older Excel**: Uses an array formula with `INDEX`, `MATCH`, and `COUNTIF`.
 
----
 
 ## Excel 365: Using UNIQUE
 
@@ -51,7 +49,6 @@
 > [!NOTE]
 > `UNIQUE` is **dynamic** and automatically updates when data changes.
 
----
 
 ## Older Excel: Array Formula
 
@@ -82,7 +79,6 @@
 > - Enter the formula in `B1` and **drag down**.
 > - Use **Ctrl+Shift+Enter** if not in Excel 365.
 
----
 
 ## Step-by-Step Examples
 
@@ -102,7 +98,6 @@
 4. **Drag down**: `B2`, `B3`, etc.
 5. **Result**: `B1:B4` contains `Apple`, `Banana`, `Orange`, `Grape`.
 
----
 
 ## Flashcard Q&A
 
@@ -118,7 +113,6 @@
 ### Q4: Why is `COUNTIF($B$1:B1, $A$1:$A$100)` used in the array formula?
 - **A**: It counts how many times each value in `A1:A100` has already been listed in `B1:B1`.
 
----
 
 ## Best Practices and Tips
 
